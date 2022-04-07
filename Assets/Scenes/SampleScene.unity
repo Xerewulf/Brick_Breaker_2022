@@ -827,7 +827,6 @@ GameObject:
   - component: {fileID: 1452924890}
   - component: {fileID: 1452924889}
   - component: {fileID: 1452924892}
-  - component: {fileID: 1452924893}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -951,19 +950,6 @@ MonoBehaviour:
   pedal: {fileID: 738274665}
   x: 2
   y: 15
---- !u!114 &1452924893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452924887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d7548670abbe144baf585a493844896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sclip: {fileID: 8300000, guid: 1c1d148868dfc624bbd35af2f43e0a22, type: 3}
 --- !u!1 &1568897893
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,14 +5,16 @@ using UnityEngine.UI;
 public class NameIn : MonoBehaviour
 {
 
-string namever = TransferName.scene1.PlayerName;
-    public int disscore=GameManager.gamemanagertool.GetScore();
+string namever = TransferName.PlayerName;
+    //public int disscore=GameManager.score;
  
 public Text testDisplay;
+
+
 public void StoreName() {
     
-
-    testDisplay.text = $"{namever} Score is +{disscore}";
+    Debug.Log(GameManager.score);
+    testDisplay.text = namever + "'s Score is:" +  GameManager.score;
 }
 
 }

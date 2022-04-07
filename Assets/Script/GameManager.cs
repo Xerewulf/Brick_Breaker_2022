@@ -41,7 +41,7 @@ this.pedal = FindObjectOfType<Pedal>();
 
     public void ResetGame()
     {
-        this.ball.ResetBall();
+       SceneManager.LoadScene(1);
         
     }
 public int GetScore()

@@ -9,9 +9,11 @@ public class BoxDestroy : MonoBehaviour
  private void OnCollisionEnter2D()
  {
       SoundControl.Cont.PlaySound(Sclip);
+      GameManager.score+=10;
       Object.Destroy(gameObject, 0f);
+      Debug.Log(GameManager.score);
       
-      GameManager.score++;
+      
  }
 
 

@@ -915,8 +915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a558ef1792d7fab42b4df1f1d1b9ca7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerName: 
-  inputField: {fileID: 0}
+  inputField: {fileID: 1029928839}
 --- !u!4 &1648944436
 Transform:
   m_ObjectHideFlags: 0

@@ -39,12 +39,7 @@ Vector2 differ;
         }
     }
 
-    public void ResetBall()
-    {
-        
-        TopinPedal();
-
-    }
+   
 
    
 

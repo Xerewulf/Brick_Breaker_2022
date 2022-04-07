@@ -5,8 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class TransferName : MonoBehaviour
 {
-public static TransferName scene1;
-    public string PlayerName;
+
+    public static string PlayerName;
     public Text inputField;
  
 
@@ -17,9 +17,5 @@ public static TransferName scene1;
        
         
    }
-   public string GetName()
-   {
-
-       return this.PlayerName;
-   }
+  
 }

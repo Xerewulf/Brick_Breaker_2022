@@ -12,7 +12,7 @@ public class PlayonStart : MonoBehaviour
     private void OnTriggerEnter2D()
     {
         SoundControl.Cont.PlaySound(Sclip);
-        Debug.Log("Hit");
+        
     }
 
 }
